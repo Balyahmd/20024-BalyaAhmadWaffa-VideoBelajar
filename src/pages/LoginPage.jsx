@@ -30,7 +30,7 @@ function LoginPage() {
         <img
           src={logo}
           alt="logo vidio belajar"
-          className="max-w-60 max-h-14 mx-10 md:mx-20"
+          className="w-40 md:w-60 max-h-14 mx-10 md:mx-20"
         />
       </Navbar>
       <MainLayout>
@@ -116,13 +116,6 @@ function LoginPage() {
               atau
             </span>
           </div>
-
-          {/* <button
-              type="button"
-              onClick={handleLoginWithGoogle}
-              className="w-full flex items-center justify-center gap-2 bg-white border border-gray-200 text-dark-secondary text-base font-medium py-2 px-4 rounded-lg hover:bg-gray-50 transition duration-200"
-            >
-            </button> */}
 
           <Button
             onClick={handleLoginWithGoogle}

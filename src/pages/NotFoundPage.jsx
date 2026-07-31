@@ -11,7 +11,7 @@ function NotFoundPage() {
         <img
           src={logo}
           alt="logo vidio belajar"
-          className="max-w-60 max-h-14 mx-10 md:mx-20"
+          className="w-40 md:w-60 max-h-14 mx-10 md:mx-20"
         />
       </Navbar>
       <MainLayout>

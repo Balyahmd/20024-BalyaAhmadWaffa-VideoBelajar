@@ -65,7 +65,7 @@ function HomePage() {
         <img
           src={logo}
           alt="logo vidio belajar"
-          className="max-w-60 max-h-14 mx-10 md:mx-20"
+          className="w-40 md:w-60 max-h-14 mx-10 md:mx-20"
         />
 
         <div className="hidden md:flex items-center-safe mx-20 gap-6 relative">
@@ -105,7 +105,7 @@ function HomePage() {
 
         <button
           onClick={() => setMobileMenuOpen((v) => !v)}
-          className="p-2 mx-10 text-gray-700"
+          className="md:hidden p-2 mx-10 text-gray-700"
           aria-label="Buka menu"
         >
           <img src={IconMenu} alt="menu" className="w-6 h-6" />
