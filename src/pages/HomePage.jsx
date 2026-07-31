@@ -105,7 +105,7 @@ function HomePage() {
 
         <button
           onClick={() => setMobileMenuOpen((v) => !v)}
-          className="md:hidden p-2 mx-10 text-gray-700"
+          className="p-2 mx-10 text-gray-700"
           aria-label="Buka menu"
         >
           <img src={IconMenu} alt="menu" className="w-6 h-6" />
