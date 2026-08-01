@@ -1,16 +1,148 @@
-# React + Vite
+# 📚 VidioBelajar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website statis berbasis **React JS** yang dibuat sebagai bagian dari **Intermediate Mission 1**. Project ini bertujuan untuk melatih kemampuan dasar dalam membangun antarmuka (UI) menggunakan React, React Router, dan Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 [https://balyaahmad-videoBelajar](https://balyahmd-video-belajar-qitvv3tmm-balyaawfas-projects.vercel.app/)
 
-## React Compiler
+> Ganti dengan URL deployment milikmu.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📖 Deskripsi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pada project ini, pengguna dapat mengakses tiga halaman utama:
+
+- 🏠 Homepage
+- 🔐 Login
+- 📝 Register
+
+Aplikasi dibuat dengan pendekatan **Component-Based Architecture**, sehingga setiap bagian UI dapat digunakan kembali (Reusable Component).
+
+---
+
+## ✨ Fitur
+
+- Responsive Layout
+- Login Page
+- Register Page
+- Homepage
+- Reusable Button Component
+- Reusable Card Component
+- Navbar
+- Footer
+- Dynamic Course Data
+- Star Rating Component
+- Custom Layout
+- 404 Not Found Page
+
+---
+
+## 🛠️ Tech Stack
+
+- React JS
+- Vite
+- React Router DOM
+- Tailwind CSS
+- JavaScript (ES6+)
+
+---
+
+## 📁 Struktur Folder
+
+```text
+src/
+├── assets/
+│   ├── icons/
+│   └── images/
+│       └── hero.png
+│
+├── components/
+│   ├── Button.jsx
+│   ├── Card.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   └── StarRating.jsx
+│
+├── datas/
+│   └── course.js
+│
+├── layouts/
+│   └── MainLayout.jsx
+│
+├── pages/
+│   ├── HomePage.jsx
+│   ├── LoginPage.jsx
+│   ├── RegisterPage.jsx
+│   └── NotFoundPage.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Instalasi
+
+Clone repository
+
+```bash
+git clone https://github.com/username/20024_BalyaAhmadWaffa_VidioBelajar.git
+```
+
+Masuk ke folder project
+
+```bash
+cd 20024_BalyaAhmadWaffa_VidioBelajar
+```
+
+Install dependency
+
+```bash
+npm install
+```
+
+Menjalankan aplikasi
+
+```bash
+npm run dev
+```
+
+Build production
+
+```bash
+npm run build
+```
+
+Preview build
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎯 Tujuan Pembelajaran
+
+Project ini dibuat untuk mempelajari:
+
+- React Fundamental
+- Component Reusability
+- React Router
+- Props
+- Conditional Rendering
+- List Rendering
+- Responsive Web Design
+- Tailwind CSS
+- Folder Structure
+- UI Slicing
+
+---
+
+## 👨‍💻 Author
+
+**Balya Ahmad Waffa**
+
+- GitHub: https://github.com/username
+- LinkedIn: https://linkedin.com/in/username
